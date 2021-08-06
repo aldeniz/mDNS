@@ -1,8 +1,11 @@
 
 A simple class for mDNS quering from PHP, worked with Arduino Microcontrollers ESP..., based on the ChrisRidings / PHPmDNS  repository.
-The mDNS class worked only with Type A (IPv4 address record) queries. It was created and reworked to recognize Arduino microcontrollers (as ESP32, ESP8266 etc.) on the local network.
+
+The mDNS class worked only with Type A (IPv4 address record) queries. 
+It was created and reworked to recognize Arduino microcontrollers (as ESP32, ESP8266 etc.) on the local network.
+
 Example:
-``
+```php
 include "mdns-lib.php";
 
 $a=scan("esp8266.local");
